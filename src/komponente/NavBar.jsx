@@ -4,6 +4,7 @@ import {Link} from "react-router-dom";
 function NavBar({cartNum}){
     //const curtNum=0;
 return <div className="navBar">
+    
 <Link to="/">Poslasticarnica</Link>
 <Link to="/cart" className="cart-items">
     <BsCart3/>
@@ -14,5 +15,6 @@ return <div className="navBar">
 
 
 </div>
+
 }
 export default NavBar;
